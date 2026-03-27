@@ -1,12 +1,13 @@
 #include <SevSeg.h>
+//setting up pins! 
 
 int pinA = 11;int pinB = 7;int pinC = 4;int pinD = 2;
 int pinE = 1;int pinF = 10;int pinG = 5;
 int pinDP = 3;int D1 = 12;int D2 = 9;int D3 = 8; int D4 = 6;
 int buttonPin = 13;
 bool count = false;
-int lED = A0;
-int buzz= A0;
+int lED = A0;  //in series
+int buzz= A0; //in series
 
 
 void setup() {//set all segments & digits as outputs
@@ -29,7 +30,6 @@ pinMode(lED, OUTPUT);
 
 void loop() {
 
-
 if (digitalRead(buttonPin) == LOW) {
   error();delay(200);
 }
@@ -44,11 +44,7 @@ if (count == true) {
 
 }
 
-
 }
-
-
-//functions representing numbers 0-9
 
 void runCount() {
   show10();
