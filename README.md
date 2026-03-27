@@ -19,6 +19,9 @@ The system starts a countdown when a button is pressed and activates visual and 
 - Resistors (220Ω)
 - Breadboard + jumper wires
 
+**RESULTS!!**
+https://github.com/user-attachments/assets/6598d186-8d3a-46f7-bfba-ca9d1991ba8a
+
 **Learnings**
 My main focus in this project was the get more comfortable with hardware conections, and Ardunio coding. First, I learned how to test if my display was anode or cathode common by testing how the display reacts to voltage is being inserted into a common pin. It was common annode!  Additionally, I was able to understand how current must flow from the segment pin to the digital pin in order to light up. In that case, digital is the anode, and segment is the cathode. 
 
